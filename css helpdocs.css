@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/* */
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+/* Home Page Title */
+
+.navbar .nav li {
+    display: inline-block;
+    float: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff
+}
+.navbar .nav li a, .navbar .icon-private-w, .navbar .active a:focus {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff
+}
+
+/* Home Page Category Title*/
+
+.category-list h3 {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Category Styles */
+
+.category-list .category p {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+/* Category Images*/
+/*How to VQFF*/
+/Frequently Asked Questions/
+a#category-112 {
+    background-image: url(https://outonscreen.com/wp-content/uploads/2024/12/VQFF2024-guide-cover-501x800.png);
+}
+
+/Buying tickets and passes/
+a#category-108 {
+    background-image: url(https://outonscreen.com/wp-content/uploads/2024/12/VQFF2024-guide-cover-501x800.png);
+}
+
+/Attending the Festival in person/
+a#category-109 {
+    background-image: url(https://outonscreen.com/wp-content/uploads/2024/12/VQFF2024-guide-cover-501x800.png);
+}
+
+/*General*/
+/Watching Films Online/
+/About the films/
+
+/*Out In Schools*/
+/Accessibility/
+/History of Out On Screen/
+/Work with Out On Screen/
+
+/*Support Out On Screen*/
+/Film Catalogue/
+/Presentations/
+
+/*Programming*/
+/Donations & Sponsorships/
+/Volunteering/
+
+
+/*Internal Documents*/
+/Awards/
+/Education & Mentorship/
+/Submissions/
+/Year-Round Programmimg/
+
+/*Internal Documents*/
+/Internal Policies/
+
+.category-list .category {
+    background-color: #fff;
+    background-position: top 20px center !important;
+    background-repeat: no-repeat !important;
+    background-size: 100px auto !important;
+    box-shadow: 0 7px 4px -5px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    min-height: 183px;
+    padding: 120px 20px 15px;
+    position: relative;
+    width: 31.5%;
+    transition: all 0.2s;
+}
+.category-list .category:hover {
+    text-decoration: none;
+    background: #f7f7f9;
+}
+
+
+.collection-category h2 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    text-align: center;
+    padding-left: 0%;
+    font-family: 'Space Grotesk', sans-serif;
+    /* text-transform: uppercase; */
+    color: #7e8287;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.collection-category h2 a {
+    color: #D93DFF;
+}
+
+.collection-category .category-list {
+    margin: 0 0 4em;
+    text-align: center;
+}
+
+
+/* Home Page Search Button */
+
+#searchBar button {
+    background: #D93DFF;
+    border-color: transparent;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    border-color: transparent;
+    font-size: 18px;
+    padding: 0 1.5em;
+    height: 50px;
+    position: absolute;
+}
+#searchBar button:hover {
+    background: #00FFCF;
+    border-color: transparent;
+    color: #000000;
+}
+input, button, select, textarea {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+
+/* Side Bar Styles */
+
+#sidebar .nav-list a {
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    padding: 6px 15px 6px 0;
+    line-height: 20px;
+    margin-left: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 300;
+}
+#sidebar .nav-list .active a, #sidebar .nav-list .active a:hover, #sidebar .nav-list .active a:focus {
+    font-weight: 400;
+    color: #D93DFF;
+    background: 0 0;
+    text-shadow: none;
+    text-decoration: underline;
+}
+#sidebar .nav-list .active a:focus {
+    font-weight: 400;
+    color: #D93DFF;
+    background: 0 0;
+    text-shadow: none;
+    text-decoration: underline;
+}
+#sidebar h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 4px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 2px;
+}
+/* Article Styles */
+
+#main-content {
+    background: none;
+    float: right;
+    margin-bottom: 2em;
+    padding: 32px 0 0 28px;
+}
+
+#fullArticle img {
+    display: block;
+    margin: 1em 0 2em;
+    padding: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#fullArticle .active a:hover {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #D93DFF;
+}
+
+#fullArticle .title, .contentWrapper h1 {
+    margin: 0 30px .5em 0;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #000000;
+    font-weight: 700;
+}
+#fullArticle .printArticle {
+    position: absolute;
+    right: 46px;
+    top: 40px;
+}
+#fullArticle, #fullArticle p, #fullArticle ul, #fullArticle ol, #fullArticle li, #fullArticle div, #fullArticle blockquote, #fullArticle dd, #fullArticle table {
+    color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .01em;
+}
+#categoryHead .sort select {
+    width: 150px;
+    height: 24px;
+    margin: 0;
+    line-height: 24px;
+    font-size: 13px;
+    color: #000000;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+/* Article Footers */
+
+.articleFoot p, .articleFoot time {
+    color: #7e8287;
+    display: inline-block;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Page Footers */
+
+footer p a {
+    color: #7e8287;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Contact Modal */
+
+#contactModal h2, .abuse h2 {
+    background: #fff;
+    margin: 0;
+    padding: 11px 0 10px 18px;
+    font-size: 22px;
+    border-bottom: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #D93DFF;
+    font-weight: 400;
+}
+#contactModal .control-label {
+    width: 110px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.btn {
+    color: #fff;
+    text-shadow: 0 0px 0px rgba(255,255,255,.0);
+    background: #D93DFF;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 14px;
+    padding: .5em;
+    /* height: 50px; */
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled] {
+    color: #fff;
+    text-shadow: 0 0px 0px rgba(255,255,255,.0);
+    background: #00FFCF;
+    border-color: transparent;
+}
+
+#search-query .btn:hover {
+    color: #fff;
+    text-shadow: 0 0px 0px rgba(255,255,255,.0);
+    background: #D93DFF;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 18px;
+    padding: 0 1.5em;
+    height: 50px;
+}
+
+.category-list {
+    text-align: center;
+}
+
+
+/* Collection Titles  */
+.collection-category h2 a {
+    color: #000000;
+}
+
+.collection-category h2 {
+    font-weight: 400;
+    margin: 0 0 20px;
+    padding-left: .65%;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+}
